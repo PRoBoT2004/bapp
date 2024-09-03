@@ -45,7 +45,10 @@ const Header = () => {
           Contact
           <span className="absolute left-0 bottom-0 w-0 h-0.5 bg-white transition-all group-hover:w-full"></span>
         </Link>
-       
+        <Link to="/github" className="relative group">
+          GitHub
+          <span className="absolute left-0 bottom-0 w-0 h-0.5 bg-white transition-all group-hover:w-full"></span>
+        </Link>
       </nav>
 
       {/* Right: Login and Dark Mode Toggle */}
